@@ -27,6 +27,9 @@ const Footer = () => {
             admin@covent.id
           </div>
         </div>
+        <div className="rights">
+          © 2020 Covent Indonesia. All rights reserved.
+        </div>
       </div>
     </>
   );

@@ -1,0 +1,49 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-hero {
+  height: 100%;
+  width: 100%;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.logo {
+  padding-top: 10rem;
+  padding-left: 5rem;
+}
+
+.logo-text {
+  font-size: 3rem;
+  line-height: 1.125;
+  padding-top: 12.5rem;
+}
+
+.hero-color {
+  height: 100%;
+  background-color: #ffcc00;
+}
+
+.description-hero {
+  font-weight: bold;
+  text-align: right;
+  padding-top: 60%;
+  padding-right: 3rem;
+  color: white;
+  font-size: 1.85rem;
+}

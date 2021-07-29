@@ -1,0 +1,13 @@
+.container {
+  margin: auto;
+  width: 100%;
+  padding: 5rem 0 5rem 0;
+  background-color: #ffcc00;
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.85rem;
+}

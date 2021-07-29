@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #dff1e4;
+  background-color: white;
 }
 
 .pages {
@@ -12,4 +12,15 @@ body {
   text-align: center;
   font-size: 3.5rem;
   margin-top: 10%;
+}
+
+.button {
+  padding: 10px 10px;
+  color: white;
+  width: 174px;
+  height: 38px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #faa712;
 }

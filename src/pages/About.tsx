@@ -6,7 +6,7 @@ const About = () => {
       <div className="container">
         <div className="banner">THIS IS HOW WE START OUR JOURNEY</div>
       </div>
-      <div>test</div>
+      <div>About Content</div>
     </>
   );
 };

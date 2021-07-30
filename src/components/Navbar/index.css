@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 20;
@@ -37,7 +37,7 @@
 
 .nav-column {
   float: left;
-  width: 10%;
+  width: 9%;
 }
 
 /* Clear floats after the columns */
@@ -75,7 +75,7 @@
 
 .nav-item {
   line-height: 40px;
-  margin-right: 1rem;
+  margin: 2.75rem;
 }
 
 .nav-item:after {

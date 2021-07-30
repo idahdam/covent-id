@@ -16,7 +16,7 @@
 }
 
 .left {
-  width: 50%;
+  width: 30%;
 }
 
 .right {
@@ -25,11 +25,11 @@
 
 .logo {
   padding-top: 10rem;
-  padding-left: 5rem;
+  padding-left: 8rem;
 }
 
 .logo-text {
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.125;
   padding-top: 12.5rem;
 }
@@ -45,7 +45,7 @@
   padding-top: 63%;
   padding-right: 3rem;
   color: white;
-  font-size: 1.85rem;
+  font-size: 2rem;
 }
 
 .main-row {

@@ -101,6 +101,10 @@
   display: none;
 }
 
+.nav-bold-title {
+  font-family: "MADE Evolve Sans Bold";
+}
+
 @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;

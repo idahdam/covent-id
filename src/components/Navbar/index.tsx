@@ -17,7 +17,7 @@ function NavBar() {
                 <img src={logo} alt="logo" className="logo-navbar" />
               </div>
               <div className="nav-column nav-logo-text">
-                <b>COVENT</b>
+                <span className="nav-bold-title">COVENT</span>
                 <br />
                 INDONESIA
               </div>

@@ -4,6 +4,10 @@ import "./Main.css";
 import ventilator from "../assets/main/covent.png";
 import logo from "../assets/main/logo.png";
 import pakbasari from "../assets/main/pakbasari.png";
+import rnd from "../assets/main/rnd.png";
+import device from "../assets/main/medical-device.png";
+import software from "../assets/main/healthcare-software-dev.png";
+import indonesia from "../assets/main/indonesia.png";
 
 const Main = () => {
   return (
@@ -12,10 +16,10 @@ const Main = () => {
         <div className="column">
           <div>
             <div className="column left ">
-              <img src={logo} alt="logo" className="logo" />
+              <img src={logo} alt="logo" className="logo" loading="lazy" />
             </div>
             <div className="column right logo-text">
-              <b>COVENT</b>
+              <span className="hero-title-bold">COVENT</span>
               <br />
               INDONESIA
             </div>
@@ -32,7 +36,7 @@ const Main = () => {
       <div className="main-container">
         <div className="main-row">
           <div className="main-column">
-            <img src={pakbasari} alt="foto pak basari" />
+            <img src={pakbasari} alt="foto pak basari" loading="lazy" />
           </div>
           <div className="main-column">
             <div className="main-title">WHO WE ARE</div>
@@ -54,6 +58,76 @@ const Main = () => {
               <Link to="/about" className="button">
                 Get to know our journey
               </Link>
+            </div>
+          </div>
+        </div>
+        <div className="second-main-row">
+          <div>
+            <div className="second-main-row-title">WHAT WE DO</div>
+            <div className="second-main-row-desc">
+              Saat ini kami terus melakukan berbagai riset, pengembangan,
+              perancangan serta pembuatan alat dan perangkat lunak untuk
+              pelayanan kesehatan sebagai upaya kami untuk mengambangkan potensi
+              lokal Indonesia di bidang kesehatan.
+            </div>
+            <div className="second-main-row-photos">
+              <div className="second-main-row-photos-row">
+                <div className="second-main-row-photos-column">
+                  <div className="second-main-row-photos-css">
+                    <img src={rnd} alt="1" loading="lazy" />
+                  </div>
+                  <span className="second-main-row-photos-name">
+                    Research and Development
+                  </span>
+                </div>
+                <div className="second-main-row-photos-column">
+                  <div className="second-main-row-photos-css">
+                    <img src={device} alt="1" loading="lazy" />
+                  </div>
+                  <span className="second-main-row-photos-name">
+                    Medical Device Prototyping
+                  </span>
+                </div>
+                <div className="second-main-row-photos-column">
+                  <div className="second-main-row-photos-css">
+                    <img src={software} alt="1" loading="lazy" />
+                  </div>
+                  <span className="second-main-row-photos-name">
+                    Healthcare Software Development
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="third-main-row">
+          <div>
+            <div className="third-main-row-title">OUR VISION</div>
+            <div className="third-main-row-content">
+              <div className="third-main-row-content-row">
+                <div className="third-main-row-content-column third-left">
+                  <div className="third-main-row-content-column-text">
+                    <div className="third-main-row-content-column-text-width">
+                      Seiring dengan perkembangan Society 5.0, kami percaya
+                      bahwa sebuah sistem pelayanan kesehatan yang terintegrasi
+                      dan terinterkoneski akan menjadi bagian penting dari masa
+                      depan
+                    </div>
+                  </div>
+                  <div className="third-main-row-content-column-text-2">
+                    We are aiming to be the enabler of Indonesia’s medical
+                    ecosystem in 2025
+                  </div>
+                </div>
+                <div className="third-main-row-content-column third-right">
+                  <div className="third-main-row-content-column-map">
+                    <img
+                      src={indonesia}
+                      alt="peta indonesia dengan logo covent uwu"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -17,9 +17,9 @@
 }
 
 .footer-logo-title {
-  padding-top: 1.25rem;
+  padding-top: 1rem;
   line-height: 1.125;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .footer-column {
@@ -39,6 +39,15 @@
   margin: auto;
   width: 50%;
   padding: 10px;
+  font-size: 1.125rem;
+}
+
+.footer-logo-title-bold {
+  font-family: "MADE Evolve Sans Bold";
+}
+
+.footer-logo-col-name {
+  font-family: "MADE Evolve sans Bold";
 }
 
 @media screen and (max-width: 600px) {

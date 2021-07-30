@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
               <div className="footer-column">
                 <div className="footer-logo-title">
-                  <b>COVENT</b>
+                  <span className="footer-logo-title-bold">COVENT</span>
                   <br />
                   INDONESIA
                 </div>
@@ -22,7 +22,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="column">
-            <b>Contacts</b>
+            <span className="footer-logo-col-name">Contacts</span>
+            <br />
             <br />
             admin@covent.id
           </div>

@@ -25,11 +25,11 @@
 
 .logo {
   padding-top: 10rem;
-  padding-left: 8rem;
+  padding-left: 5rem;
 }
 
 .logo-text {
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1.125;
   padding-top: 12.5rem;
 }
@@ -181,5 +181,5 @@
 
 .third-main-row-content-column-map {
   padding-left: 2rem;
-  transform: translate(0%, -20%);
+  transform: translate(-5%, -20%);
 }

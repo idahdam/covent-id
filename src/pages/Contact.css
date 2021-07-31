@@ -8,6 +8,72 @@
 .banner {
   text-align: center;
   color: white;
-  font-weight: bold;
+  font-family: "MADE Evolve Sans Bold";
   font-size: 1.85rem;
+}
+
+.contact-us-column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.contact-us-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-us-container {
+  background-color: white;
+  padding: 5%;
+}
+
+.contact-us-title {
+  font-family: "MADE Evolve Sans Bold";
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact-us-input-label {
+  font-family: "MADE Evolve Sans Bold";
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact-us-input-area {
+  font-family: "MADE Evolve Sans Regular";
+  display: table-cell;
+  width: 90%;
+  padding-left: 5px;
+  height: 2rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.contact-us-input-message {
+  text-align: left;
+  font-family: "MADE Evolve Sans Regular";
+  display: table-cell;
+  width: 95%;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 5rem;
+  border-radius: 5px;
+  resize: none;
+  border: 1px solid black;
+}
+
+.contact-us-email-button {
+  margin-top: 2rem;
+  padding: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "MADE Evolve Sans Bold";
+  background-color: #faa712;
+  border-radius: 10px;
 }

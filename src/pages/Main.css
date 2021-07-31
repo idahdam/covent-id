@@ -153,14 +153,15 @@
 }
 
 .third-left {
-  width: 40%;
+  width: 50%;
 }
 
 .third-right {
-  width: 60%;
+  width: 50%;
 }
 
 .third-main-row-content {
+  margin: auto;
   padding: 8% 5% 0% 5%;
 }
 
@@ -181,5 +182,6 @@
 
 .third-main-row-content-column-map {
   padding-left: 2rem;
-  transform: translate(-5%, -20%);
+  padding-right: 2rem;
+  transform: translate(-25%, -20%);
 }

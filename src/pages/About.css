@@ -1,0 +1,14 @@
+.container {
+  margin: auto;
+  width: 100%;
+  padding: 5rem 0 10rem 0;
+  background-color: #ffcc00;
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  font-family: "MADE Evolve Sans Bold";
+  font-size: 1.85rem;
+  padding-bottom: 5rem;
+}

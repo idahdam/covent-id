@@ -1,13 +1,29 @@
+@font-face {
+  font-family: "MADE Evolve Sans Regular";
+  src: local("MADE Evolve Sans Regular"),
+    url("./fonts/MADE\ Evolve\ Sans\ Regular\ \(PERSONAL\ USE\).otf")
+      format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "MADE Evolve Sans Bold";
+  src: local("MADE Evolve Sans Bold"),
+    url("./fonts/MADE\ Evolve\ Sans\ Bold\ \(PERSONAL\ USE\).otf")
+      format("opentype");
+  font-weight: bold;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "MADE Evolve Sans Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

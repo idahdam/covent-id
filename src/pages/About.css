@@ -4,11 +4,41 @@
   padding: 5rem 0 10rem 0;
   background-color: #ffcc00;
 }
+.about-us-each-image {
+  width: 100%;
+}
+.about-us-each-description {
+  padding-bottom: 1rem;
+}
+.about-us-each-title-left {
+  font-family: "MADE Evolve Sans Bold";
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.about-us-each-description-bold {
+  font-family: "MADE Evolve Sans Bold";
+}
+.about-us-each-title-right {
+  font-family: "MADE Evolve Sans Bold";
+  font-size: 2rem;
+  text-align: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.aboutus-container {
+  margin: auto;
+}
+
+.about-image-each {
+  width: 100%;
+  object-fit: fill;
+}
 
 .banner {
   text-align: center;
   color: white;
   font-family: "MADE Evolve Sans Bold";
   font-size: 1.85rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
 }

@@ -77,3 +77,12 @@
   background-color: #faa712;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 960px) {
+  .contact-us-column {
+    width: 100%;
+  }
+  .contact-us-title {
+    text-align: center;
+  }
+}

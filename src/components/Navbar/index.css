@@ -145,4 +145,16 @@
     cursor: pointer;
     color: #ffdd40;
   }
+  .nav-logo-text {
+    padding-left: 1rem;
+  }
+  .nav-column {
+    float: left;
+    width: 15%;
+  }
+  .logo-navbar {
+    vertical-align: auto;
+    padding-left: 0rem;
+    max-width: 60px;
+  }
 }

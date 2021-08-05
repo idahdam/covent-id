@@ -29,7 +29,7 @@ const About = () => {
               Kami telah merancang alat kesehatan yang memenuhi persyaratan yang
               berlaku di Indonesia. Kami menyadari bahwa{" "}
               <span className="about-us-each-description-bold">
-                kjumlah penduduk di Indonesia
+                jumlah penduduk di Indonesia
               </span>{" "}
               yang menempati urutan{" "}
               <span className="about-us-each-description-bold">
@@ -126,6 +126,33 @@ const About = () => {
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      <div className="about-us-map">
+        <div className="about-us-map-row">
+          <div className="about-us-map-column map-left">
+            <div className="about-us-map-iframe"></div>
+          </div>
+          <div className="about-us-map-column map-right">
+            <div className="about-us-map-text">PETA PERSEBARAN COVENT-20</div>
+          </div>
+        </div>
+      </div>
+      <div className="about-us-news">
+        <div className="about-us-medpar-text">
+          WATCH THE NEWS FROM OUR MEDIA PARTNER
+        </div>
+        <div className="about-us-news-row">
+          <div className="about-us-news-column">
+            <div className="about-us-news-medpar"></div>
+          </div>
+          <div className="about-us-news-column">
+            <div className="about-us-news-medpar"></div>
+          </div>
+          <div className="about-us-news-column">
+            <div className="about-us-news-medpar"></div>
+          </div>
+        </div>
+      </div>
+      <div className="about-us-documentation"></div>
     </>
   );
 };

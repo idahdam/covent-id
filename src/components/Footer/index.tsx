@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <>
       <div className="footer-container">
-        <div className="row">
-          <div className="column">
+        <div className="footer-row-outer">
+          <div className="footer-column-outer">
             <div className="footer-row">
               <div className="footer-column">
                 <img src={logo} alt="logo" width="100" />
@@ -21,11 +21,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="column">
+          <div className="footer-column-outer">
             <span className="footer-logo-col-name">Contacts</span>
             <br />
             <br />
-            admin@covent.id
+            <div className="footer-contacts">admin@covent.id</div>
           </div>
         </div>
         <div className="rights">

@@ -126,11 +126,12 @@
     z-index: 1;
   }
   .nav-item .active {
+    margin: 0.5rem 0rem;
     color: #ffdd40;
     border: none;
   }
   .nav-links {
-    padding: 1.5rem;
+    padding: 1.5rem 0rem;
     width: 100%;
     display: table;
   }

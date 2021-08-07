@@ -27,15 +27,15 @@
   display: block;
   width: 60%;
   padding-top: 5%;
-  padding-left: 0rem;
   padding-top: 10rem;
   padding-left: 5rem;
 }
 
 .logo-text {
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 1.125;
-  padding-top: 12.5rem;
+  padding-left: 2rem;
+  padding-top: 10rem;
 }
 
 .hero-color {
@@ -46,7 +46,7 @@
 .description-hero {
   font-family: "MADE Evolve Sans Bold";
   text-align: right;
-  padding-top: 63%;
+  padding-top: 60%;
   padding-right: 3rem;
   color: white;
   font-size: 2rem;
@@ -177,7 +177,7 @@
 
 .third-main-row-content {
   margin: auto;
-  padding: 8% 5% 0% 5%;
+  padding: 5% 5%;
 }
 
 .third-main-row-content-column-text {
@@ -196,8 +196,9 @@
 }
 
 .third-main-row-content-column-map {
-  padding-left: 2rem;
+  padding-left: 5%;
   padding-right: 2rem;
+  padding-top: 2.5rem;
   transform: translate(-25%, -20%);
 }
 
@@ -223,6 +224,7 @@
     height: 10%;
   }
   .right {
+    width: 50%;
     height: 1%;
   }
   .column {
@@ -238,14 +240,19 @@
     padding-left: 0rem;
   }
   .logo-text {
+    width: 100%;
     padding-top: 5%;
     height: 10%;
+    padding-left: 0rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 5%;
   }
   .description-hero {
     width: 100%;
+    padding-right: 0rem;
     padding-bottom: 5%;
+    font-size: 1.5rem;
     text-align: center;
   }
   .main-column-text {
@@ -253,7 +260,14 @@
     width: 100%;
     text-align: justify;
   }
+  .second-main-row-title {
+    font-family: "MADE Evolve Sans Bold";
+    text-align: center;
+    font-size: 2rem;
+  }
   .main-title {
+    text-align: center;
+    font-size: 2rem;
     padding-top: 5%;
     text-align: center;
   }
@@ -266,36 +280,45 @@
     padding-bottom: 2rem;
   }
   .second-main-row-desc {
-    padding: 5% 17% 5% 17%;
+    padding: 5% 18%;
     text-align: justify;
     font-size: 1.125rem;
   }
   .third-main-row-content-column-map {
-    padding-left: 0rem;
-    padding-right: 0rem;
-    width: 300px;
+    padding-top: 0rem;
+    margin: auto;
+    width: 85%;
+    padding: 1%;
     transform: translate(0%, 0%);
   }
   .third-main-row-title {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2.5%;
+    font-size: 2rem;
   }
   .third-main-row-content-column-text-width {
     text-align: justify;
     width: 100%;
   }
+  .third-right {
+    width: 100%;
+  }
   .third-main-row-content-column-text {
     margin: auto;
-    width: 50%;
+    padding: 5% 17%;
   }
   .third-main-row-content-column-text-2 {
+    font-size: 1.5rem;
     text-align: center;
   }
   .third-main-row-content-map-img {
-    width: 300px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .second-main-row-photos-name {
-    padding: 5%;
+    padding: 5% 3%;
   }
   .main-description-button {
     padding-top: 5%;

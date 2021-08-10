@@ -4,6 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   const [firstname, setFirstname] = useState<any | null>(null);
   const [lastname, setLastname] = useState<any | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [email, setEmail] = useState<any | null>(null);
   const [phone, setPhone] = useState<any | null>(null);
   const [message, setMessage] = useState<any | null>(null);

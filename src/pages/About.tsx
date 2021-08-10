@@ -8,6 +8,7 @@ import img1 from "../assets/about/1.png";
 import img2 from "../assets/about/2.png";
 import img3 from "../assets/about/3.png";
 import img4 from "../assets/about/4.png";
+import documentation from "../assets/about/documentation.png";
 import "./About.css";
 
 const About = () => {
@@ -143,16 +144,60 @@ const About = () => {
         <div className="about-us-news-row">
           <div className="about-us-news-column">
             <div className="about-us-news-medpar"></div>
+            <div className="about-us-news-source">CNN Indonesia</div>
           </div>
           <div className="about-us-news-column">
             <div className="about-us-news-medpar"></div>
+            <div className="about-us-news-source">RISTEK/BRIN</div>
           </div>
           <div className="about-us-news-column">
             <div className="about-us-news-medpar"></div>
+            <div className="about-us-news-source">BBC Indonesia</div>
           </div>
         </div>
       </div>
-      <div className="about-us-documentation"></div>
+      <div className="about-us-documentation">
+        <div className="about-us-doc-text">
+          MORE DOCUMENTATION ABOUT COVENT-20
+        </div>
+        <div className="about-us-doc-row">
+          <div className="about-us-doc-column">
+            <img
+              src={documentation}
+              alt="docs"
+              className="about-us-doc-image-big"
+            />
+          </div>
+          <div className="about-us-doc-column">
+            <div className="about-us-doc-right-row">
+              <div className="about-us-doc-right-column">
+                <img
+                  src={documentation}
+                  alt="docs"
+                  className="about-us-doc-image-small"
+                />
+                <img
+                  src={documentation}
+                  alt="docs"
+                  className="about-us-doc-image-small"
+                />
+              </div>
+              <div className="about-us-doc-right-column">
+                <img
+                  src={documentation}
+                  alt="docs"
+                  className="about-us-doc-image-small"
+                />
+                <img
+                  src={documentation}
+                  alt="docs"
+                  className="about-us-doc-image-small"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

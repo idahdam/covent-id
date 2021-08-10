@@ -130,7 +130,14 @@ const About = () => {
       <div className="about-us-map">
         <div className="about-us-map-row">
           <div className="about-us-map-column map-left">
-            <div className="about-us-map-iframe"></div>
+            <div className="about-us-map-iframe">
+              <iframe
+                title="stuff"
+                src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
+                width="100%"
+                height="100%"
+              ></iframe>
+            </div>
           </div>
           <div className="about-us-map-column map-right">
             <div className="about-us-map-text">PETA PERSEBARAN COVENT-20</div>

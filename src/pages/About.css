@@ -65,7 +65,7 @@
 .about-us-map-iframe {
   text-align: center;
   margin: auto;
-  background-color: #c4c4c4;
+  /* background-color: #c4c4c4; */
   width: 80%;
   height: 300px;
   border-radius: 10px;
@@ -161,11 +161,12 @@
 .about-us-doc-image-big {
   width: 98%;
   padding: 0 1%;
+  padding-right: 5%;
 }
 
 .about-us-doc-image-small {
   width: 95%;
-  padding: 1% 1%;
+  padding: 1% 2.5%;
 }
 
 .about-us-doc-right-row:after {

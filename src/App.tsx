@@ -3,10 +3,12 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Main, About, Contact } from "./pages";
 import { Footer, Navbar } from "./components";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Main} />

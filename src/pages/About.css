@@ -9,10 +9,12 @@
 }
 .about-us-each-description {
   padding-bottom: 1rem;
+  font-size: 1.125rem;
 }
 .about-us-each-title-left {
   font-family: "MADE Evolve Sans Bold";
   font-size: 2rem;
+  text-align: left;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -26,6 +28,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 .aboutus-container {
   margin: auto;
 }
@@ -53,6 +56,11 @@
   display: table;
   clear: both;
 }
+.about-us-map {
+  margin: auto;
+  width: 93%;
+  padding-top: 5%;
+}
 
 .about-us-map-iframe {
   text-align: center;
@@ -79,14 +87,22 @@
   padding-bottom: 5%;
 }
 
+.about-us-doc-text {
+  text-align: center;
+  height: 100%;
+  font-size: 2rem;
+  font-family: "MADE Evolve Sans Bold";
+  padding-bottom: 5%;
+}
+
 .map-left {
-  width: 65%;
+  width: 70%;
 }
 
 .map-right {
   margin: auto;
   width: 30%;
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .about-us-news {
@@ -94,7 +110,6 @@
   width: 85%;
   padding: 10px;
   padding-top: 5%;
-  padding-left: 5%;
 }
 
 .about-us-news-row::after {
@@ -112,5 +127,86 @@
   border-radius: 10px;
   background-color: #c4c4c4;
   width: 80%;
-  height: 250px;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.about-us-news-source {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 1.125rem;
+  font-family: "MADE Evolve Sans Bold";
+}
+
+.about-us-documentation {
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about-us-doc-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-us-doc-column {
+  float: left;
+  width: 50%;
+}
+
+.about-us-doc-image-big {
+  width: 98%;
+  padding: 0 1%;
+}
+
+.about-us-doc-image-small {
+  width: 95%;
+  padding: 1% 1%;
+}
+
+.about-us-doc-right-row:after {
+  display: flex;
+}
+
+.about-us-doc-right-column {
+  float: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .about-us-each-title-right {
+    text-align: left;
+  }
+  .about-us-map-column {
+    width: 100%;
+  }
+  .about-us-map-text {
+    text-align: center;
+    height: 100%;
+    font-size: 2rem;
+    font-family: "MADE Evolve Sans Bold";
+  }
+  .about-us-news-column {
+    float: left;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  .about-us-doc-column {
+    width: 100%;
+  }
+  .about-us-doc-right-column {
+    width: 100%;
+  }
+  .about-us-doc-image-big {
+    width: 98%;
+    padding: 1% 1%;
+  }
+  .about-us-doc-image-small {
+    width: 98%;
+    padding: 1% 1%;
+  }
 }

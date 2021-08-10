@@ -68,8 +68,9 @@
 }
 
 .contact-us-email-button {
-  margin-top: 2rem;
+  padding-top: 2rem;
   padding: 1rem;
+  text-decoration: none;
   color: white;
   border: none;
   cursor: pointer;

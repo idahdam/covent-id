@@ -53,7 +53,7 @@
 }
 
 .main-row {
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 .main-column-text {
@@ -266,11 +266,12 @@
     font-family: "MADE Evolve Sans Bold";
     text-align: center;
     font-size: 2rem;
+    padding-bottom: 1.5rem;
   }
   .main-title {
     text-align: center;
     font-size: 2rem;
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: center;
   }
   .main-description {
@@ -320,7 +321,7 @@
     margin-right: auto;
   }
   .second-main-row-photos-name {
-    padding: 5% 3%;
+    padding: 5% 2%;
   }
   .main-description-button {
     padding-top: 5%;

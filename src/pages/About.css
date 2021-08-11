@@ -125,7 +125,6 @@
 
 .about-us-news-medpar {
   border-radius: 10px;
-  background-color: #c4c4c4;
   width: 80%;
   height: 200px;
   margin: auto;
@@ -209,5 +208,8 @@
   .about-us-doc-image-small {
     width: 98%;
     padding: 1% 1%;
+  }
+  .contact-us-input-area {
+    width: 100%;
   }
 }

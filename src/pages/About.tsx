@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -12,6 +12,20 @@ import documentation from "../assets/about/documentation.png";
 import "./About.css";
 
 const About = () => {
+  const [position, setPosition] = useState(true);
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setPosition(false);
+    } else {
+      setPosition(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener("resize", showButton);
   return (
     <>
       <div className="container">
@@ -129,19 +143,43 @@ const About = () => {
       </VerticalTimeline>
       <div className="about-us-map">
         <div className="about-us-map-row">
-          <div className="about-us-map-column map-left">
-            <div className="about-us-map-iframe">
-              <iframe
-                title="stuff"
-                src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
-                width="100%"
-                height="100%"
-              ></iframe>
-            </div>
-          </div>
-          <div className="about-us-map-column map-right">
-            <div className="about-us-map-text">PETA PERSEBARAN COVENT-20</div>
-          </div>
+          {position ? (
+            <>
+              <div className="about-us-map-column map-left">
+                <div className="about-us-map-iframe">
+                  <iframe
+                    title="stuff"
+                    src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
+                    width="100%"
+                    height="100%"
+                  ></iframe>
+                </div>
+              </div>
+              <div className="about-us-map-column map-right">
+                <div className="about-us-map-text">
+                  PETA PERSEBARAN COVENT-20
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="about-us-map-column map-right">
+                <div className="about-us-map-text">
+                  PETA PERSEBARAN COVENT-20
+                </div>
+              </div>
+              <div className="about-us-map-column map-left">
+                <div className="about-us-map-iframe">
+                  <iframe
+                    title="stuff"
+                    src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
+                    width="100%"
+                    height="100%"
+                  ></iframe>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
       <div className="about-us-news">
@@ -150,15 +188,39 @@ const About = () => {
         </div>
         <div className="about-us-news-row">
           <div className="about-us-news-column">
-            <div className="about-us-news-medpar"></div>
+            <div className="about-us-news-medpar">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/-OrAz70_TFY"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
             <div className="about-us-news-source">CNN Indonesia</div>
           </div>
           <div className="about-us-news-column">
-            <div className="about-us-news-medpar"></div>
+            <div className="about-us-news-medpar">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/UkNoAbP39C0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
             <div className="about-us-news-source">RISTEK/BRIN</div>
           </div>
           <div className="about-us-news-column">
-            <div className="about-us-news-medpar"></div>
+            <div className="about-us-news-medpar">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/g0xxax1w-yg"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
             <div className="about-us-news-source">BBC Indonesia</div>
           </div>
         </div>

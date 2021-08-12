@@ -141,127 +141,129 @@ const About = () => {
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
-      <div className="about-us-map">
-        <div className="about-us-map-row">
-          {position ? (
-            <>
-              <div className="about-us-map-column map-left">
-                <div className="about-us-map-iframe">
-                  <iframe
-                    title="stuff"
-                    src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
-                    width="100%"
-                    height="100%"
-                  ></iframe>
+      <div className="about-us-container-two">
+        <div className="about-us-map">
+          <div className="about-us-map-row">
+            {position ? (
+              <>
+                <div className="about-us-map-column map-left">
+                  <div className="about-us-map-iframe">
+                    <iframe
+                      title="stuff"
+                      src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
+                      width="100%"
+                      height="100%"
+                    ></iframe>
+                  </div>
                 </div>
-              </div>
-              <div className="about-us-map-column map-right">
-                <div className="about-us-map-text">
-                  PETA PERSEBARAN COVENT-20
+                <div className="about-us-map-column map-right">
+                  <div className="about-us-map-text">
+                    PETA PERSEBARAN COVENT-20
+                  </div>
                 </div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="about-us-map-column map-right">
-                <div className="about-us-map-text">
-                  PETA PERSEBARAN COVENT-20
+              </>
+            ) : (
+              <>
+                <div className="about-us-map-column map-right">
+                  <div className="about-us-map-text">
+                    PETA PERSEBARAN COVENT-20
+                  </div>
                 </div>
-              </div>
-              <div className="about-us-map-column map-left">
-                <div className="about-us-map-iframe">
-                  <iframe
-                    title="stuff"
-                    src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
-                    width="100%"
-                    height="100%"
-                  ></iframe>
+                <div className="about-us-map-column map-left">
+                  <div className="about-us-map-iframe">
+                    <iframe
+                      title="stuff"
+                      src="https://www.google.com/maps/d/embed?mid=1uz4CBFrnwtje1taOcas1-vP8kE16KXA4"
+                      width="100%"
+                      height="100%"
+                    ></iframe>
+                  </div>
                 </div>
-              </div>
-            </>
-          )}
+              </>
+            )}
+          </div>
         </div>
-      </div>
-      <div className="about-us-news">
-        <div className="about-us-medpar-text">
-          WATCH THE NEWS FROM OUR MEDIA PARTNER
-        </div>
-        <div className="about-us-news-row">
-          <div className="about-us-news-column">
-            <div className="about-us-news-medpar">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/-OrAz70_TFY"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
+        <div className="about-us-news">
+          <div className="about-us-medpar-text">
+            WATCH THE NEWS FROM OUR MEDIA PARTNER
+          </div>
+          <div className="about-us-news-row">
+            <div className="about-us-news-column">
+              <div className="about-us-news-medpar">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/-OrAz70_TFY"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
+              </div>
+              <div className="about-us-news-source">CNN Indonesia</div>
             </div>
-            <div className="about-us-news-source">CNN Indonesia</div>
-          </div>
-          <div className="about-us-news-column">
-            <div className="about-us-news-medpar">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/UkNoAbP39C0"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
-            </div>
-            <div className="about-us-news-source">RISTEK/BRIN</div>
-          </div>
-          <div className="about-us-news-column">
-            <div className="about-us-news-medpar">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/g0xxax1w-yg"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
-            </div>
-            <div className="about-us-news-source">BBC Indonesia</div>
-          </div>
-        </div>
-      </div>
-      <div className="about-us-documentation">
-        <div className="about-us-doc-text">
-          MORE DOCUMENTATION ABOUT COVENT-20
-        </div>
-        <div className="about-us-doc-row">
-          <div className="about-us-doc-column">
-            <img
-              src={documentation}
-              alt="docs"
-              className="about-us-doc-image-big"
-            />
-          </div>
-          <div className="about-us-doc-column">
-            <div className="about-us-doc-right-row">
-              <div className="about-us-doc-right-column">
-                <img
-                  src={documentation}
-                  alt="docs"
-                  className="about-us-doc-image-small"
-                />
-                <img
-                  src={documentation}
-                  alt="docs"
-                  className="about-us-doc-image-small"
-                />
+            <div className="about-us-news-column">
+              <div className="about-us-news-medpar">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/UkNoAbP39C0"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
               </div>
-              <div className="about-us-doc-right-column">
-                <img
-                  src={documentation}
-                  alt="docs"
-                  className="about-us-doc-image-small"
-                />
-                <img
-                  src={documentation}
-                  alt="docs"
-                  className="about-us-doc-image-small"
-                />
+              <div className="about-us-news-source">RISTEK/BRIN</div>
+            </div>
+            <div className="about-us-news-column">
+              <div className="about-us-news-medpar">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/g0xxax1w-yg"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
+              </div>
+              <div className="about-us-news-source">BBC Indonesia</div>
+            </div>
+          </div>
+        </div>
+        <div className="about-us-documentation">
+          <div className="about-us-doc-text">
+            MORE DOCUMENTATION ABOUT COVENT-20
+          </div>
+          <div className="about-us-doc-row">
+            <div className="about-us-doc-column">
+              <img
+                src={documentation}
+                alt="docs"
+                className="about-us-doc-image-big"
+              />
+            </div>
+            <div className="about-us-doc-column">
+              <div className="about-us-doc-right-row">
+                <div className="about-us-doc-right-column">
+                  <img
+                    src={documentation}
+                    alt="docs"
+                    className="about-us-doc-image-small"
+                  />
+                  <img
+                    src={documentation}
+                    alt="docs"
+                    className="about-us-doc-image-small"
+                  />
+                </div>
+                <div className="about-us-doc-right-column">
+                  <img
+                    src={documentation}
+                    alt="docs"
+                    className="about-us-doc-image-small"
+                  />
+                  <img
+                    src={documentation}
+                    alt="docs"
+                    className="about-us-doc-image-small"
+                  />
+                </div>
               </div>
             </div>
           </div>

@@ -1,9 +1,26 @@
+.home-container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-hero-container {
+  background-color: #ffcc00;
+}
+
 .column {
   float: left;
   width: 50%;
 }
 
 .row {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
 }
 
@@ -40,7 +57,7 @@
 }
 
 .hero-color {
-  background-color: #ffcc00;
+  width: 100%;
 }
 
 .description-hero {

@@ -9,6 +9,13 @@
   width: 50%;
 }
 
+.footer-row-outer {
+  z-index: 1;
+  width: 100%;
+  max-width: 1125px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Clear floats after the columns */
 .footer-row-outer:after {
   content: "";

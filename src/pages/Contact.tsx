@@ -1,14 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Contact.css";
 
 const Contact = () => {
   const [firstname, setFirstname] = useState<any | null>(null);
   const [lastname, setLastname] = useState<any | null>(null);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [email, setEmail] = useState<any | null>(null);
+  const [subject, setSubject] = useState<any | null>(null);
   const [phone, setPhone] = useState<any | null>(null);
   const [message, setMessage] = useState<any | null>(null);
 
+  const [position, setPosition] = useState(true);
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setPosition(false);
+    } else {
+      setPosition(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener("resize", showButton);
   return (
     <>
       <div className="container">
@@ -30,32 +44,68 @@ const Contact = () => {
                   onChange={(e) => setFirstname(e.target.value)}
                 />
               </div>
-              <div className="contact-us-input-label">
-                <label>Email*</label>
-              </div>
-              <div>
-                <input
-                  type="email"
-                  className="contact-us-input-area"
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </div>
+              {position ? (
+                <>
+                  <div className="contact-us-input-label">
+                    <label>Subject*</label>
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      className="contact-us-input-area"
+                      onChange={(e) => setSubject(e.target.value)}
+                      required
+                    />
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="contact-us-input-label">
+                    <label>Last name*</label>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      className="contact-us-input-area"
+                      required
+                      onChange={(e) => setLastname(e.target.value)}
+                    />
+                  </div>
+                </>
+              )}
             </div>
           </div>
           <div className="contact-us-column">
             <div className="contact-us-input-each">
-              <div className="contact-us-input-label">
-                <label>Last name*</label>
-              </div>
-              <div>
-                <input
-                  type="text"
-                  className="contact-us-input-area"
-                  required
-                  onChange={(e) => setLastname(e.target.value)}
-                />
-              </div>
+              {position ? (
+                <>
+                  <div className="contact-us-input-label">
+                    <label>Last name*</label>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      className="contact-us-input-area"
+                      required
+                      onChange={(e) => setLastname(e.target.value)}
+                    />
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="contact-us-input-label">
+                    <label>Subject*</label>
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      className="contact-us-input-area"
+                      onChange={(e) => setSubject(e.target.value)}
+                      required
+                    />
+                  </div>
+                </>
+              )}
               <div className="contact-us-input-label">
                 <label>Phone number</label>
               </div>
@@ -87,7 +137,7 @@ const Contact = () => {
           <br />
           <br />
           <a
-            href={`mailto:muhammad.hadi93@ui.ac.id?subject=Nama: ${firstname} ${lastname} - ${phone} - ${message}`}
+            href={`mailto:muhammad.hadi93@ui.ac.id?subject=${subject}&body=Perkenalkan, saya ${firstname} ${lastname}, dengan nomor telepon ${phone}. ${message}`}
             className="contact-us-email-button"
           >
             Email us

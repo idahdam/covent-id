@@ -1,9 +1,26 @@
+.home-container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-hero-container {
+  background-color: #ffcc00;
+}
+
 .column {
   float: left;
   width: 50%;
 }
 
 .row {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
 }
 
@@ -27,7 +44,7 @@
 
 .logo {
   display: block;
-  width: 50%;
+  width: 65%;
   padding-top: 10rem;
   padding-left: 5rem;
 }
@@ -40,7 +57,7 @@
 }
 
 .hero-color {
-  background-color: #ffcc00;
+  width: 100%;
 }
 
 .description-hero {
@@ -53,7 +70,7 @@
 }
 
 .main-row {
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 .main-column-text {
@@ -266,11 +283,12 @@
     font-family: "MADE Evolve Sans Bold";
     text-align: center;
     font-size: 2rem;
+    padding-bottom: 1.5rem;
   }
   .main-title {
     text-align: center;
     font-size: 2rem;
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: center;
   }
   .main-description {
@@ -320,7 +338,7 @@
     margin-right: auto;
   }
   .second-main-row-photos-name {
-    padding: 5% 3%;
+    padding: 5% 2%;
   }
   .main-description-button {
     padding-top: 5%;

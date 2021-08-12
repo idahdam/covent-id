@@ -4,6 +4,13 @@
   padding: 5rem 0 5rem 0;
   background-color: #ffcc00;
 }
+.about-us-container-two {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .about-us-each-image {
   width: 100%;
 }
@@ -65,7 +72,7 @@
 .about-us-map-iframe {
   text-align: center;
   margin: auto;
-  background-color: #c4c4c4;
+  /* background-color: #c4c4c4; */
   width: 80%;
   height: 300px;
   border-radius: 10px;
@@ -125,7 +132,6 @@
 
 .about-us-news-medpar {
   border-radius: 10px;
-  background-color: #c4c4c4;
   width: 80%;
   height: 200px;
   margin: auto;
@@ -161,11 +167,12 @@
 .about-us-doc-image-big {
   width: 98%;
   padding: 0 1%;
+  padding-right: 5%;
 }
 
 .about-us-doc-image-small {
   width: 95%;
-  padding: 1% 1%;
+  padding: 1% 2.5%;
 }
 
 .about-us-doc-right-row:after {
@@ -208,5 +215,8 @@
   .about-us-doc-image-small {
     width: 98%;
     padding: 1% 1%;
+  }
+  .contact-us-input-area {
+    width: 100%;
   }
 }

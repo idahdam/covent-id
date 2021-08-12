@@ -9,6 +9,13 @@
   width: 50%;
 }
 
+.footer-row-outer {
+  z-index: 1;
+  width: 100%;
+  max-width: 1125px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Clear floats after the columns */
 .footer-row-outer:after {
   content: "";
@@ -78,7 +85,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     line-height: 1.125;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .footer-contacts {
     font-size: 1.5rem;

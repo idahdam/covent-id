@@ -330,6 +330,8 @@
   }
   .third-main-row-content-column-text-2 {
     font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     text-align: center;
   }
   .third-main-row-content-map-img {
@@ -337,6 +339,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 1.5rem;
   }
   .second-main-row-photos-name {
     font-size: 1.5rem;

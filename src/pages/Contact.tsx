@@ -36,7 +36,7 @@ const Contact = () => {
               <div className="contact-us-input-label">
                 <label>First name*</label>
               </div>
-              <div>
+              <div className="contact-us-input-width">
                 <input
                   type="text"
                   className="contact-us-input-area"
@@ -107,7 +107,7 @@ const Contact = () => {
                 </>
               )}
               <div className="contact-us-input-label">
-                <label>Phone number</label>
+                <label>Phone number*</label>
               </div>
               <div>
                 <input
@@ -137,7 +137,7 @@ const Contact = () => {
           <br />
           <br />
           <a
-            href={`mailto:muhammad.hadi93@ui.ac.id?subject=${subject}&body=Perkenalkan, saya ${firstname} ${lastname}, dengan nomor telepon ${phone}. ${message}`}
+            href={`mailto:admin@covent.id?subject=${subject}&body=Perkenalkan, saya ${firstname} ${lastname}, dengan nomor telepon ${phone}. ${message}`}
             className="contact-us-email-button"
           >
             Email us

@@ -1,7 +1,7 @@
 .container {
   margin: auto;
   width: 100%;
-  padding: 5rem 0 5rem 0;
+  padding: 2.5rem 0;
   background-color: #ffcc00;
 }
 
@@ -26,6 +26,11 @@
 
 .contact-us-container {
   background-color: white;
+  z-index: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5%;
 }
 
@@ -39,6 +44,7 @@
   font-family: "MADE Evolve Sans Bold";
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 .contact-us-input-area {
@@ -83,7 +89,56 @@
   .contact-us-column {
     width: 100%;
   }
+  .contact-us-container {
+    background-color: white;
+    z-index: 1;
+    width: 85%;
+    padding-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .contact-us-title {
     text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 0rem;
+  }
+  .contact-us-input-width {
+    max-width: 900px;
+  }
+  .contact-us-input-message {
+    max-width: 900px;
+    width: 98%;
+  }
+  .contact-us-input-area {
+    font-family: "MADE Evolve Sans Regular";
+    display: table-cell;
+    max-width: 900px;
+    width: 98%;
+    height: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .contact-us-email-button {
+    margin-bottom: 1rem;
+  }
+  .contact-us-input-label {
+    font-family: "MADE Evolve Sans Bold";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .banner {
+    text-align: center;
+    color: white;
+    font-family: "MADE Evolve Sans Bold";
+    font-size: 1.85rem;
+  }
+  .banner {
+    text-align: center;
+    color: white;
+    font-family: "MADE Evolve Sans Bold";
+    font-size: 1.5rem;
   }
 }

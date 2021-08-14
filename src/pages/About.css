@@ -50,7 +50,7 @@
   color: white;
   font-family: "MADE Evolve Sans Bold";
   font-size: 1.85rem;
-  padding-bottom: 0rem;
+  padding: 2.5rem 0;
 }
 
 .about-us-map-column {
@@ -165,14 +165,15 @@
 }
 
 .about-us-doc-image-big {
-  width: 98%;
-  padding: 0 1%;
-  padding-right: 5%;
+  width: 92%;
+  padding: 0% 2.5%;
+  padding-right: 0%;
 }
 
 .about-us-doc-image-small {
   width: 95%;
-  padding: 1% 2.5%;
+  padding: 1% 0%;
+  border-radius: 10px;
 }
 
 .about-us-doc-right-row:after {
@@ -194,7 +195,8 @@
   .about-us-map-text {
     text-align: center;
     height: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
     font-family: "MADE Evolve Sans Bold";
   }
   .about-us-news-column {
@@ -218,5 +220,49 @@
   }
   .contact-us-input-area {
     width: 100%;
+  }
+  .about-us-each-title-left {
+    font-family: "MADE Evolve Sans Bold";
+    font-size: 1.5rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .about-us-each-title-right {
+    font-family: "MADE Evolve Sans Bold";
+    font-size: 1.5rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .about-us-each-description {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .about-us-medpar-text {
+    text-align: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: "MADE Evolve Sans Bold";
+    padding-bottom: 5%;
+  }
+  .about-us-news-source {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1rem;
+    font-family: "MADE Evolve Sans Bold";
+  }
+  .about-us-doc-text {
+    text-align: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: "MADE Evolve Sans Bold";
+    padding-bottom: 2rem;
+  }
+  .banner {
+    text-align: center;
+    color: white;
+    font-family: "MADE Evolve Sans Bold";
+    font-size: 1.5rem;
   }
 }

@@ -9,6 +9,10 @@ import img2 from "../assets/about/2.png";
 import img3 from "../assets/about/3.png";
 import img4 from "../assets/about/4.png";
 import documentation from "../assets/about/documentation.png";
+import doc1 from "../assets/about/doc1.png";
+import doc2 from "../assets/about/doc2.png";
+import doc3 from "../assets/about/doc3.png";
+import doc4 from "../assets/about/doc4.png";
 import "./About.css";
 
 const About = () => {
@@ -242,24 +246,24 @@ const About = () => {
               <div className="about-us-doc-right-row">
                 <div className="about-us-doc-right-column">
                   <img
-                    src={documentation}
+                    src={doc1}
                     alt="docs"
                     className="about-us-doc-image-small"
                   />
                   <img
-                    src={documentation}
+                    src={doc2}
                     alt="docs"
                     className="about-us-doc-image-small"
                   />
                 </div>
                 <div className="about-us-doc-right-column">
                   <img
-                    src={documentation}
+                    src={doc3}
                     alt="docs"
                     className="about-us-doc-image-small"
                   />
                   <img
-                    src={documentation}
+                    src={doc4}
                     alt="docs"
                     className="about-us-doc-image-small"
                   />

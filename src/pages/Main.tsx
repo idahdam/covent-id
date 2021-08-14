@@ -84,7 +84,12 @@ const Main = () => {
                 <div className="second-main-row-photos-row">
                   <div className="second-main-row-photos-column">
                     <div className="second-main-row-photos-css">
-                      <img src={rnd} alt="1" loading="lazy" />
+                      <img
+                        src={rnd}
+                        alt="1"
+                        loading="lazy"
+                        className="second-main-row-photos-each-css"
+                      />
                     </div>
                     <span className="second-main-row-photos-name">
                       Research and Development
@@ -92,7 +97,12 @@ const Main = () => {
                   </div>
                   <div className="second-main-row-photos-column">
                     <div className="second-main-row-photos-css">
-                      <img src={device} alt="1" loading="lazy" />
+                      <img
+                        src={device}
+                        alt="1"
+                        loading="lazy"
+                        className="second-main-row-photos-each-css"
+                      />
                     </div>
                     <span className="second-main-row-photos-name">
                       Medical Device Prototyping
@@ -100,7 +110,12 @@ const Main = () => {
                   </div>
                   <div className="second-main-row-photos-column">
                     <div className="second-main-row-photos-css">
-                      <img src={software} alt="1" loading="lazy" />
+                      <img
+                        src={software}
+                        alt="1"
+                        loading="lazy"
+                        className="second-main-row-photos-each-css"
+                      />
                     </div>
                     <span className="second-main-row-photos-name">
                       Healthcare Software Development
@@ -121,7 +136,7 @@ const Main = () => {
                         Seiring dengan perkembangan Society 5.0, kami percaya
                         bahwa sebuah sistem pelayanan kesehatan yang
                         terintegrasi dan terinterkoneski akan menjadi bagian
-                        penting dari masa depan
+                        penting dari masa depan.
                       </div>
                     </div>
                     <div className="third-main-row-content-column-text-2">

@@ -23,10 +23,18 @@ const Footer = () => {
           </div>
           <div className="footer-column-outer">
             <div className="footer-column-right">
-              <span className="footer-logo-col-name">Contacts</span>
-              <br />
-              <br />
-              <div className="footer-contacts">admin@covent.id</div>
+              <div className="footer-column-right-row">
+                <div className="footer-column-right-column">
+                  <div className="footer-logo-col-name">Contact</div>
+                  <div className="footer-logo-col-counter">admin@covent.id</div>
+                </div>
+                <div className="footer-column-right-column">
+                  <div
+                    className="powr-hit-counter"
+                    id="f28b994f_1628994420"
+                  ></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

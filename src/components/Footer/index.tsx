@@ -31,7 +31,7 @@ const Footer = () => {
                 <div className="footer-column-right-column">
                   <div
                     className="powr-hit-counter"
-                    id="f28b994f_1628994420"
+                    id="a58deec7_1628995148"
                   ></div>
                 </div>
               </div>

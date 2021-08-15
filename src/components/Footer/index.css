@@ -44,6 +44,9 @@
   width: 20%;
 }
 
+.footer-row {
+  margin-top: -1rem;
+}
 /* Clear floats after the columns */
 .footer-row:after {
   content: "";
@@ -91,7 +94,6 @@
     text-align: center;
   }
   .footer-logo-col-name {
-    padding-top: 2rem;
     font-family: "MADE Evolve sans Bold";
     font-size: 1.25rem;
   }

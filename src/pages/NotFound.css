@@ -1,5 +1,6 @@
 .not-found-container {
   margin: auto;
   width: 100%;
-  padding: 5rem;
+  padding: 5rem 0;
+  max-width: 1300px;
 }
